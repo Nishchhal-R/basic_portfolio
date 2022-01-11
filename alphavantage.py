@@ -75,7 +75,7 @@ def main():
             cr = csv.reader(decoded_content.splitlines(), delimiter=',')
             
             my_list = list(cr)
-            print(my_list)
+            
             y=[]
             x=[]
             for i in range(1,len(my_list)):
